@@ -1,2 +1,14 @@
 # An-lisisTitanic
-hhh
+
+El proyecto se centró en la creación de un modelo predictivo para determinar la probabilidad de supervivencia de los pasajeros del Titanic, basándose en sus características personales y socioeconómicas. El objetivo principal fue identificar qué tipos de personas tenían más probabilidades de sobrevivir al naufragio del famoso RMS Titanic, que colisionó con un iceberg durante su viaje inaugural en abril de 1912, resultando en la muerte de 1502 de las 2224 personas a bordo.
+
+El análisis se llevó a cabo utilizando dos conjuntos de datos proporcionados por Kaggle: `train.csv`, que contenía información detallada sobre 891 pasajeros, incluyendo si sobrevivieron o no, y `test.csv`, que contenía información similar para otros 418 pasajeros, sin revelar si sobrevivieron. El desafío consistía en entrenar un modelo con el conjunto de datos de entrenamiento (`train.csv`) y luego utilizar este modelo para predecir la supervivencia de los pasajeros en el conjunto de prueba (`test.csv`), cuyos resultados fueron evaluados mediante la leaderboard de Kaggle.
+
+El proyecto comenzó con una exhaustiva exploración y limpieza de datos. Se abordaron problemas comunes como valores faltantes en variables críticas como la edad y la clase socioeconómica, y se implementaron estrategias de imputación para completar estos datos. También se realizaron transformaciones y conversiones de variables categóricas a numéricas, necesarias para el entrenamiento de modelos de aprendizaje automático.
+
+Durante la fase de modelado, se exploraron múltiples algoritmos para identificar cuál proporcionaba las mejores predicciones. Entre los modelos utilizados se incluyeron la Regresión Logística, el Bosque Aleatorio (Random Forest), el Modelo de Bosque Aumentado (Boosting), y Máquinas de Vectores de Soporte (SVM). La Regresión Logística fue uno de los primeros enfoques utilizados debido a su capacidad para manejar variables categóricas y su simplicidad en la interpretación de los coeficientes asociados a cada característica del pasajero. Los modelos de ensamble como el Bosque Aleatorio y el Boosting proporcionaron una mayor precisión al combinar múltiples árboles de decisión, lo que permitió capturar patrones complejos en los datos.
+
+El modelo final seleccionado fue optimizado mediante la validación cruzada y ajustes de hiperparámetros, asegurando que se minimizara el sobreajuste y que el modelo generalizara correctamente a nuevos datos. Se utilizó la métrica de precisión (accuracy) para evaluar el desempeño del modelo en la predicción de supervivencia en el conjunto de prueba, comparando los resultados con la "ground truth" no revelada durante el entrenamiento.
+
+El proyecto culminó con la presentación de las predicciones en la plataforma de Kaggle, donde se evaluaron contra los resultados de otros participantes. Esta experiencia no solo permitió aplicar técnicas avanzadas de aprendizaje supervisado, sino que también proporcionó una valiosa retroalimentación en términos de comparación de modelos y la interpretación de los factores que influenciaron la supervivencia de los pasajeros del Titanic.
+
