@@ -1,4 +1,4 @@
-# An-lisisTitanic
+# AnálisisTitanic
 
 El proyecto se centró en la creación de un modelo predictivo para determinar la probabilidad de supervivencia de los pasajeros del Titanic, basándose en sus características personales y socioeconómicas. El objetivo principal fue identificar qué tipos de personas tenían más probabilidades de sobrevivir al naufragio del famoso RMS Titanic, que colisionó con un iceberg durante su viaje inaugural en abril de 1912, resultando en la muerte de 1502 de las 2224 personas a bordo.
 
