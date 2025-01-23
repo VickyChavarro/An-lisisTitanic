@@ -1,4 +1,4 @@
-- The project's main aim was to create a model that could predict the chances of survival for passengers on the Titanic. This model was based on their personal and financial information.The goal was to find out which types of people were most likely to survive the sinking of the famous Titanic ship.
+- The project's main purpose was to create a model that could predict the chances of survival for passengers on the Titanic. This model was based on their personal and financial information.The goal was to find out which types of people were most likely to survive the sinking of the famous Titanic ship.
 
 - To do this, we used two sets of data from Kaggle. The first set, called `train.csv`, had information about the survival status of 891 passengers. The second set, called `test.csv`, had information about an additional 418 passengers, but did not include information about survival. The aim was to train a model using the first set of data (`train.csv`), and then use this model to predict the survival of passengers in the second set (`test.csv`).How good the model was was evaluated using the Kaggle leaderboard.
 
